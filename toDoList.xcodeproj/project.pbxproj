@@ -14,6 +14,8 @@
 		CF94CA282938FFD900C44631 /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF94CA262938FFD900C44631 /* toDoList.xcdatamodeld */; };
 		CF94CA2A2938FFDB00C44631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF94CA292938FFDB00C44631 /* Assets.xcassets */; };
 		CF94CA2D2938FFDB00C44631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF94CA2B2938FFDB00C44631 /* LaunchScreen.storyboard */; };
+		CF94CA372939442C00C44631 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94CA362939442C00C44631 /* ListCell.swift */; };
+		CF94CA39293948F500C44631 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94CA38293948F500C44631 /* CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CF94CA292938FFDB00C44631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF94CA2C2938FFDB00C44631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF94CA2E2938FFDB00C44631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF94CA362939442C00C44631 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		CF94CA38293948F500C44631 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				CF94CA1D2938FFD900C44631 /* AppDelegate.swift */,
 				CF94CA1F2938FFD900C44631 /* SceneDelegate.swift */,
 				CF94CA212938FFD900C44631 /* ViewController.swift */,
+				CF94CA362939442C00C44631 /* ListCell.swift */,
+				CF94CA38293948F500C44631 /* CoreDataHelpers.swift */,
 				CF94CA232938FFD900C44631 /* Main.storyboard */,
 				CF94CA292938FFDB00C44631 /* Assets.xcassets */,
 				CF94CA2B2938FFDB00C44631 /* LaunchScreen.storyboard */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF94CA39293948F500C44631 /* CoreDataHelpers.swift in Sources */,
 				CF94CA222938FFD900C44631 /* ViewController.swift in Sources */,
 				CF94CA1E2938FFD900C44631 /* AppDelegate.swift in Sources */,
+				CF94CA372939442C00C44631 /* ListCell.swift in Sources */,
 				CF94CA202938FFD900C44631 /* SceneDelegate.swift in Sources */,
 				CF94CA282938FFD900C44631 /* toDoList.xcdatamodeld in Sources */,
 			);

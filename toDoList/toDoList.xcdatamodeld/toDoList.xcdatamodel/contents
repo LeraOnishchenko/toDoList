@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Task" representedClassName=".Task" syncable="YES" codeGenerationType="class">
+        <attribute name="dateOfCreation" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="done" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Task" inverseName="subtasks" inverseEntity="Task"/>
+        <relationship name="subtasks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Task" inverseName="parent" inverseEntity="Task"/>
+    </entity>
 </model>
